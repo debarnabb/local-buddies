@@ -1,0 +1,37 @@
+html,
+body  
+ { 
+  background: url(camping.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4, h5 {
+	font-size: 3rem;
+	color: black;
+	/*font-style: italic;*/
+	font-family: 'Merienda';font-size: 30px;
+}
+
+.buffer {
+	margin: 30px;
+}
+
+.btn-xl /*btn-primary btn-xl*/ {
+	background-color: orangered;
+	font-weight: 70px;
+	border-radius: 300px;
+	padding: 1rem 2rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(60, 60, 60, 0.5);
+  color: white;
+  text-align: center;
+}
